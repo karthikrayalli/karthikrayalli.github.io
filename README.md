@@ -57,7 +57,7 @@ Full-stack developer with **5+ years** shipping production **web & mobile** apps
 | **Texflow** | Garment-industry job marketplace with feed & candidate profiles | Next.js · React Native · NestJS · MongoDB | [iOS](https://apps.apple.com/in/app/texflow/id6753139063) · [Android](https://play.google.com/store/apps/details?id=com.texflow&hl=en_IN) |
 | **Second Consult** | Telemedicine — consultations & second opinions, live A/V | React Native · Agora · Razorpay | [Web](https://secondconsult.com/) · [Patient](https://apps.apple.com/in/app/second-consult/id1608310955) · [Doctor](https://apps.apple.com/in/app/second-consult-for-doctors/id1583535773) |
 | **GreetKaro** | E-commerce cards & invitations with custom image editor | React Native · Razorpay · Stripe · PhonePe | [iOS](https://apps.apple.com/in/app/greet-karo/id1645281057) · [Android](https://play.google.com/store/apps/details?id=com.greetKaro) |
-| **iModel** | Virtual wardrobe & fashion feed app | React Native · Monorepo · MySQL | [iOS](https://apps.apple.com/in/app/imodel-your-virtual-wardrobe/id6472918826) |
+| **iModel** | Virtual wardrobe & fashion feed app | React Native · Monorepo · MySQL | [](https://apps.apple.com/in/app/imodel-your-virtual-wardrobe/id6472918826) |
 
 ---
 
