@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Karthik Rayalli — Marketplace & Service-Booking Apps (Web + Mobile)</title>
-<meta name="description" content="I build production-ready marketplace and service-booking apps — web + mobile — for startups. React Native, Next.js, Node." />
+<title>Karthik Rayalli — Senior Full Stack Engineer (React Native · Next.js · Node.js)</title>
+<meta name="description" content="Senior Full Stack Engineer with 5+ years of experience building web and mobile products with React Native, Next.js, Node.js and TypeScript. Based in Bengaluru, India." />
+<meta name="author" content="Karthik Rayalli" />
+<meta name="theme-color" content="#0d0e11" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Karthik Rayalli — Senior Full Stack Engineer" />
+<meta property="og:description" content="React Native, Next.js, Node.js and TypeScript. Monorepos, native-shell mobile apps and LLM-powered features." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -95,7 +100,7 @@
   h1.name .last{color:transparent;-webkit-text-stroke:1.5px var(--text)}
   .role{font-family:var(--display);font-weight:500;font-size:clamp(1.1rem,3.2vw,1.9rem);color:var(--muted);letter-spacing:-.01em;margin-bottom:26px}
   .role b{color:var(--accent);font-weight:700}
-  .lede{max-width:560px;color:var(--muted);font-size:1.05rem;margin-bottom:38px}
+  .lede{max-width:600px;color:var(--muted);font-size:1.05rem;margin-bottom:38px}
   .lede strong{color:var(--text);font-weight:500}
   .cta-row{display:flex;flex-wrap:wrap;gap:14px}
   .btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:.85rem;
@@ -137,6 +142,17 @@
   .stat .big{font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;letter-spacing:-.03em}
   .stat .big .u{color:var(--accent)}
   .stat .lbl{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-top:10px;text-transform:uppercase;letter-spacing:.04em}
+
+  /* EXPERIENCE */
+  .company{font-family:var(--display);font-weight:700;font-size:1.35rem;letter-spacing:-.01em;margin-bottom:4px}
+  .company-meta{font-family:var(--mono);font-size:.76rem;color:var(--muted);margin-bottom:30px}
+  .timeline{border-left:1px solid var(--line);margin-left:6px}
+  .role-item{position:relative;padding:0 0 32px 30px}
+  .role-item:last-child{padding-bottom:0}
+  .role-item::before{content:"";position:absolute;left:-6px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--glow)}
+  .role-item h3{font-family:var(--display);font-weight:700;font-size:1.25rem;letter-spacing:-.01em}
+  .role-item .meta{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin:2px 0 8px}
+  .role-item p{color:var(--muted);font-size:.96rem;max-width:760px}
 
   /* STACK */
   .stack-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
@@ -198,12 +214,17 @@
   /* CONTACT */
   .contact{text-align:center;border-top:1px solid var(--line);background:var(--bg-2);padding-bottom:clamp(48px,6vw,72px)}
   .contact .sec-head{margin-bottom:var(--section-gap)}
-  .contact .big-cta{font-family:var(--display);font-weight:800;letter-spacing:-.03em;font-size:clamp(2.2rem,7vw,4.6rem);line-height:1.02;margin:8px 0 32px}
+  .contact .big-cta{font-family:var(--display);font-weight:800;letter-spacing:-.03em;font-size:clamp(2.2rem,7vw,4.6rem);line-height:1.02;margin:8px 0 20px}
   .contact .big-cta a{color:var(--accent);transition:opacity .2s}
   .contact .big-cta a:hover{opacity:.7}
+  .contact .email-line{font-family:var(--mono);font-size:.95rem;color:var(--muted);margin-bottom:28px}
+  .contact .email-line a{color:var(--text);border-bottom:1px solid var(--accent)}
   .contact-links{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:10px}
   footer{margin-top:clamp(56px,7vw,80px);padding:32px 0 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
   footer .muted{font-family:var(--mono);font-size:.74rem;color:var(--muted-2)}
+
+  noscript .ns{color:var(--muted);font-size:.95rem;border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:var(--surface)}
+  noscript .ns a{color:var(--accent)}
 
   /* reveal */
   .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -213,9 +234,10 @@
 <body>
 
 <nav id="nav">
-  <a href="#top" class="brand">DR <span>Karthik</span></a>
+  <a href="#top" class="brand">Karthik <span>Rayalli</span></a>
   <div class="nav-links">
     <a href="#about">About</a>
+    <a href="#experience">Experience</a>
     <a href="#stack">Stack</a>
     <a href="#work">Case Studies</a>
     <a href="#more">More Work</a>
@@ -231,14 +253,15 @@
     <div class="blob c"></div>
   </div>
   <div class="wrap hero-inner">
-    <div class="status reveal"><span class="dot"></span> Available for new marketplace &amp; service-booking app builds</div>
+    <div class="status reveal"><span class="dot"></span> Open to senior full-stack &amp; React Native roles · Bengaluru / Remote</div>
     <h1 class="name reveal"><span class="first">Karthik</span><br><span class="last">Rayalli</span></h1>
-    <p class="role reveal">I build production-ready <b>marketplace &amp; service-booking apps</b> — web + mobile — for startups</p>
-    <p class="lede reveal">Senior full-stack developer and team lead with <strong>5+ years</strong> shipping production apps. I take marketplace and on-demand products from Figma to the App&nbsp;Store — <strong>booking flows, two-sided provider/customer apps, payments, and live tracking</strong> — across React Native, Next.js, and Node.</p>
+    <p class="role reveal">Senior Full Stack Engineer building <b>scalable web &amp; mobile products</b> with React Native, Next.js and Node.js</p>
+    <p class="lede reveal">5+ years shipping production apps across marketplaces, telemedicine, real estate and HRMS, and leading a team of <strong>11 engineers</strong>. I architect <strong>monorepos and native-shell mobile apps</strong>, integrate <strong>LLM-powered features</strong>, and own delivery through App&nbsp;Store and Play Store releases.</p>
     <div class="cta-row reveal">
       <a href="#work" class="btn btn-primary">View case studies →</a>
       <a href="Karthik_Rayalli_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Résumé (PDF)</a>
       <a href="https://www.linkedin.com/in/karthik-rayalli/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/karthikrayalli" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
     </div>
   </div>
   <div class="scroll-hint"><span>scroll</span><span class="line"></span></div>
@@ -258,15 +281,48 @@
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I'm a full-stack developer who lives at the intersection of <em>mobile and web</em>, and I've come to specialize in the products that are hardest to get right: <strong>marketplaces and service-booking apps</strong>. Over five years I've shipped multi-sided marketplaces, on-demand booking, telemedicine, real estate and more — the recurring thread is two-sided flows, scheduling, payments and real-time features.</p>
-      <p>I build with <strong>React Native</strong> for iOS &amp; Android and <strong>React.js / Next.js</strong> on the web, and I own the <strong>backend</strong> in Node, NestJS and Express when the team needs it. I'm drawn to <strong>scalable monorepos</strong>, reusable SDK-style packages, and the unglamorous work that makes a codebase pleasant to grow.</p>
-      <p>As a <strong>team lead</strong>, I gather requirements straight from clients, break the work down, and keep shipping alongside the team — then handle the release to the App Store and Play Store myself.</p>
+      <p>I'm a senior full-stack engineer who works at the intersection of <em>mobile and web</em>. Over five years I've shipped marketplaces, on-demand booking, telemedicine, real estate, HRMS and e-commerce products — the recurring thread is <strong>two-sided flows, scheduling, payments and real-time features</strong>.</p>
+      <p>I build with <strong>React Native</strong> (CLI and Expo) for iOS &amp; Android and <strong>React.js / Next.js</strong> on the web, and I work on the <strong>backend</strong> in Node.js, NestJS and Express when the team needs it. I'm drawn to <strong>scalable monorepos</strong>, native-shell mobile architecture, reusable packages and, more recently, <strong>LLM-powered features</strong> such as chatbots, voice agents and document extraction.</p>
+      <p>As a <strong>team lead</strong> for 11 engineers, I gather requirements from clients, break the work down, and keep shipping alongside the team — then handle the App Store and Play Store releases myself.</p>
     </div>
     <div class="stats reveal">
       <div class="stat"><div class="big">5<span class="u">+</span></div><div class="lbl">Years building</div></div>
-      <div class="stat"><div class="big">15<span class="u">+</span></div><div class="lbl">Products shipped</div></div>
+      <div class="stat"><div class="big">11</div><div class="lbl">Engineers led</div></div>
+      <div class="stat"><div class="big">23</div><div class="lbl">Shared packages in one monorepo</div></div>
       <div class="stat"><div class="big">iOS<span class="u">+</span></div><div class="lbl">&amp; Android releases</div></div>
-      <div class="stat"><div class="big">∞</div><div class="lbl">Cups of coffee</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="wrap">
+  <div class="sec-head reveal">
+    <span class="sec-num">02</span><h2 class="sec-title">Experience</h2><span class="sec-line"></span>
+  </div>
+  <div class="reveal">
+    <div class="company">Arokee Online Solutions Pvt Ltd</div>
+    <div class="company-meta">Bengaluru, Karnataka, India · Nov 2020 – Present</div>
+    <div class="timeline">
+      <div class="role-item">
+        <h3>Senior Software Engineer (Full Stack)</h3>
+        <div class="meta">Sep 2024 – Present</div>
+        <p>Lead end-to-end delivery for a team of 11 engineers. Architect a Turborepo/pnpm monorepo shared by two products, design a React Native native-shell architecture with a WebView bridge, and build LLM-powered features (AI chatbot, voice agent, document extraction) as shared packages.</p>
+      </div>
+      <div class="role-item">
+        <h3>Senior Software Developer</h3>
+        <div class="meta">Sep 2022 – Sep 2024</div>
+        <p>Built and shipped React Native and React apps across telemedicine, HRMS, e-commerce, B2B and marketplace products, with end-to-end App Store and Play Store releases.</p>
+      </div>
+      <div class="role-item">
+        <h3>Software Engineer</h3>
+        <div class="meta">Apr 2021 – Sep 2022</div>
+        <p>Built and shipped React Native and React.js features for client products. Integrated payments (Razorpay, Stripe), maps, push notifications and third-party APIs.</p>
+      </div>
+      <div class="role-item">
+        <h3>Software Engineer Intern</h3>
+        <div class="meta">Nov 2020 – Mar 2021</div>
+        <p>Built React Native and React.js features alongside senior engineers; converted to a full-time role in April 2021.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -274,32 +330,36 @@
 <!-- STACK -->
 <section id="stack" class="wrap">
   <div class="sec-head reveal">
-    <span class="sec-num">02</span><h2 class="sec-title">Tech Stack</h2><span class="sec-line"></span>
+    <span class="sec-num">03</span><h2 class="sec-title">Tech Stack</h2><span class="sec-line"></span>
   </div>
   <div class="stack-grid">
-    <div class="stack-card reveal"><h4>Languages</h4><div class="chips"><span class="chip">TypeScript</span><span class="chip">JavaScript (ES6+)</span><span class="chip">PHP</span></div></div>
-    <div class="stack-card reveal"><h4>Frontend &amp; Mobile</h4><div class="chips"><span class="chip">React Native</span><span class="chip">React.js</span><span class="chip">Next.js</span><span class="chip">Expo</span><span class="chip">Redux</span><span class="chip">SASS</span></div></div>
-    <div class="stack-card reveal"><h4>Backend</h4><div class="chips"><span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Express</span><span class="chip">Koa.js</span><span class="chip">REST APIs</span></div></div>
-    <div class="stack-card reveal"><h4>Databases</h4><div class="chips"><span class="chip">MongoDB</span><span class="chip">PostgreSQL · PostGIS</span><span class="chip">MySQL</span></div></div>
-    <div class="stack-card reveal"><h4>Cloud &amp; DevOps</h4><div class="chips"><span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">Firebase</span><span class="chip">Vercel</span><span class="chip">Docker</span></div></div>
-    <div class="stack-card reveal"><h4>Integrations</h4><div class="chips"><span class="chip">Razorpay</span><span class="chip">Stripe</span><span class="chip">PhonePe SDK</span><span class="chip">Agora A/V</span><span class="chip">Google Maps</span><span class="chip">SendGrid</span></div></div>
-    <div class="stack-card reveal"><h4>Testing</h4><div class="chips"><span class="chip">Jest</span><span class="chip">Playwright</span></div></div>
-    <div class="stack-card reveal"><h4>Tooling</h4><div class="chips"><span class="chip">Git</span><span class="chip">Bitbucket</span><span class="chip">Jira</span><span class="chip">Monorepos</span><span class="chip">Agile/Scrum</span></div></div>
+    <div class="stack-card reveal"><h4>Languages</h4><div class="chips"><span class="chip">TypeScript</span><span class="chip">JavaScript (ES6+)</span></div></div>
+    <div class="stack-card reveal"><h4>Frontend &amp; Mobile</h4><div class="chips"><span class="chip">React Native (CLI &amp; Expo)</span><span class="chip">React.js</span><span class="chip">Next.js</span><span class="chip">Redux</span><span class="chip">Tailwind CSS</span><span class="chip">shadcn/ui</span><span class="chip">Storybook</span></div></div>
+    <div class="stack-card reveal"><h4>Backend</h4><div class="chips"><span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Express</span><span class="chip">Hono</span><span class="chip">REST APIs</span></div></div>
+    <div class="stack-card reveal"><h4>Databases</h4><div class="chips"><span class="chip">PostgreSQL · PostGIS</span><span class="chip">MongoDB</span><span class="chip">MySQL</span></div></div>
+    <div class="stack-card reveal"><h4>Cloud &amp; DevOps</h4><div class="chips"><span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">Vercel</span><span class="chip">Docker</span><span class="chip">Firebase</span><span class="chip">CI/CD · Bitbucket Pipelines</span></div></div>
+    <div class="stack-card reveal"><h4>Architecture</h4><div class="chips"><span class="chip">Turborepo · pnpm monorepos</span><span class="chip">Shared packages</span><span class="chip">Native shell + WebView bridge</span></div></div>
+    <div class="stack-card reveal"><h4>AI &amp; LLM</h4><div class="chips"><span class="chip">OpenAI API</span><span class="chip">AI chatbot</span><span class="chip">Voice agent</span><span class="chip">Document extraction</span><span class="chip">Cursor</span><span class="chip">Claude</span></div></div>
+    <div class="stack-card reveal"><h4>Integrations</h4><div class="chips"><span class="chip">Twilio</span><span class="chip">SendGrid</span><span class="chip">Razorpay</span><span class="chip">Stripe</span><span class="chip">Agora A/V</span><span class="chip">Google Maps</span><span class="chip">HubSpot</span><span class="chip">PostHog</span></div></div>
+    <div class="stack-card reveal"><h4>Testing &amp; Process</h4><div class="chips"><span class="chip">Jest</span><span class="chip">Playwright</span><span class="chip">Git</span><span class="chip">Jira</span><span class="chip">Agile/Scrum</span></div></div>
   </div>
 </section>
 
 <!-- CASE STUDIES -->
 <section id="work" class="wrap">
   <div class="sec-head reveal">
-    <span class="sec-num">03</span><h2 class="sec-title">Case Studies</h2><span class="sec-line"></span>
+    <span class="sec-num">04</span><h2 class="sec-title">Case Studies</h2><span class="sec-line"></span>
   </div>
   <div class="cases" id="caseGrid"></div>
+  <noscript>
+    <p class="ns">Case studies need JavaScript. In short: <strong>WorklyNow</strong> (<a href="https://www.worklynow.com/">worklynow.com</a>) is an on-demand services marketplace; <strong>SqftDreams</strong> (<a href="https://sqftdreams.com">sqftdreams.com</a>) is a real-estate and builders platform; <strong>Texflow</strong> and <strong>Second Consult</strong> are a job marketplace and a telemedicine platform. Full details are in my <a href="Karthik_Rayalli_Resume.pdf">résumé</a>.</p>
+  </noscript>
 </section>
 
 <!-- MORE WORK -->
 <section id="more" class="wrap">
   <div class="sec-head reveal">
-    <span class="sec-num">04</span><h2 class="sec-title">More Work</h2><span class="sec-line"></span>
+    <span class="sec-num">05</span><h2 class="sec-title">More Work</h2><span class="sec-line"></span>
   </div>
   <div class="work-grid" id="moreGrid"></div>
 </section>
@@ -307,7 +367,7 @@
 <!-- OSS -->
 <section id="oss" class="wrap">
   <div class="sec-head reveal">
-    <span class="sec-num">05</span><h2 class="sec-title">Open Source &amp; Side Projects</h2><span class="sec-line"></span>
+    <span class="sec-num">06</span><h2 class="sec-title">Open Source &amp; Side Projects</h2><span class="sec-line"></span>
   </div>
   <div class="oss-grid" id="ossGrid"></div>
 </section>
@@ -316,17 +376,19 @@
 <section id="contact" class="contact">
   <div class="wrap">
     <div class="sec-head reveal" style="justify-content:center">
-      <span class="sec-num">06</span><h2 class="sec-title">Contact</h2>
+      <span class="sec-num">07</span><h2 class="sec-title">Contact</h2>
     </div>
-    <div class="big-cta reveal">Let's build<br>something <a href="mailto:your.email@example.com">together →</a></div>
+    <div class="big-cta reveal">Open to new roles.<br><a href="mailto:karthikdr75@gmail.com">Let's talk →</a></div>
+    <p class="email-line reveal"><a href="mailto:karthikdr75@gmail.com">karthikdr75@gmail.com</a></p>
     <div class="contact-links reveal">
-      <a class="btn btn-primary" href="mailto:your.email@example.com">Email me</a>
+      <a class="btn btn-primary" href="mailto:karthikdr75@gmail.com">Email me</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/karthik-rayalli/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-ghost" href="https://github.com/karthiDRayalli" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://github.com/karthikrayalli" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="Karthik_Rayalli_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
     </div>
     <footer>
-      <span class="brand">DR <span style="color:var(--accent)">Karthik</span></span>
-      <span class="muted">Marketplace &amp; booking apps · Bangalore, India · Built with care, not templates</span>
+      <span class="brand">Karthik <span style="color:var(--accent)">Rayalli</span></span>
+      <span class="muted">Senior Full Stack Engineer · Bengaluru, India</span>
     </footer>
   </div>
 </section>
@@ -335,13 +397,12 @@
   // arrow icon
   var ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>';
 
-  // Flagship marketplace / booking builds — problem → what I built → result
+  // Flagship builds: problem, what I built, result
   var caseStudies = [
     {n:"WorklyNow",kind:"On-demand services marketplace",
      problem:"Home & commercial services were booked over phone calls and unreliable contractors — no upfront pricing, no tracking, no trust layer.",
      build:["Multi-sided marketplace with four booking modes: scheduled, Uber-style on-demand emergency, diagnostic and quote-based.","Customer app, provider dashboard and web shipped from one shared monorepo.","PostGIS proximity matching to dispatch the right available provider in real time."],
      result:["Web + customer + provider apps from a single codebase.","Real-time proximity dispatch, live on iOS, Android & web."],
-     /* METRIC TODO: add real numbers you can defend — providers onboarded, bookings completed, response time. */
      tags:["React Native","Next.js","Node.js","PostGIS","Azure","Monorepo"],
      links:[["Web","https://www.worklynow.com/"],["Customer app","https://app.worklynow.com/"],["Provider app","https://pro.worklynow.com/dashboard"]]},
 
@@ -370,18 +431,18 @@
   // Remaining shipped products — compact cards
   var work = [
     {n:"Sharpz",kind:"Sports Betting · US",desc:"Transparent sports-betting community that links sportsbooks and shares bets in near real time. Led the team while building both the mobile and web apps, with an intelligent ranking system.",tags:["React Native","React.js","Real-time"],links:[["iOS","https://apps.apple.com/us/app/sharpz/id1578434084"]]},
-    {n:"EffiHR",kind:"HRMS Platform",desc:"HR management mobile app built end-to-end — onboarding, attendance tracking and payroll with a custom calendar, secure Descope auth, and push notifications.",tags:["React Native","Descope"],links:[["iOS","https://apps.apple.com/in/app/effihr/id6670787469"],["Android","https://play.google.com/store/apps/details?id=com.effiHR&hl=en_IN"]]},
+    {n:"EffiHR",kind:"HRMS Platform",desc:"HR management mobile app built end-to-end — attendance tracking and profile management with a custom calendar, secure Descope auth, and push notifications.",tags:["React Native","Descope"],links:[["iOS","https://apps.apple.com/in/app/effihr/id6670787469"],["Android","https://play.google.com/store/apps/details?id=com.effiHR&hl=en_IN"]]},
     {n:"GreetKaro",kind:"E-Commerce",desc:"Personalized cards & invitations app with a custom image editor, calendar and SMS. Integrated Razorpay, Stripe (backup) and the PhonePe SDK with in-app purchases.",tags:["React Native","Razorpay","Stripe","PhonePe"],links:[["iOS","https://apps.apple.com/in/app/greet-karo/id1645281057"],["Android","https://play.google.com/store/apps/details?id=com.greetKaro"]]},
     {n:"iModel",kind:"Fashion · Wardrobe",desc:"Men's & women's clothing-store app with a curated fashion feed, delivered end-to-end as a monorepo.",tags:["React Native","Monorepo","MySQL"],links:[["iOS","https://apps.apple.com/in/app/imodel-your-virtual-wardrobe/id6472918826"]]}
   ];
 
   var oss = [
-    {n:"Real-Estate Escrow",repo:"escrow",desc:"Escrow web app integrating the Escrow.com API — webhook-driven status sync, document management and automated deadline tracking.",tags:["Next.js","TypeScript","Tailwind"],url:"https://github.com/karthiDRayalli/escrow"},
-    {n:"WhatsApp API + AI",repo:"whatsapp_business_api-s",desc:"Backend service wiring the WhatsApp Business API to OpenAI for automated, conversational messaging.",tags:["Node.js","Express","OpenAI"],url:"https://github.com/karthiDRayalli/whatsapp_business_api-s"},
-    {n:"MochaHouse",repo:"mochahouse",desc:"Coffee-shop themed RN app exploring rich UI — Reanimated, blur, SVG and swipeable carousels.",tags:["React Native"],url:"https://github.com/karthiDRayalli/mochahouse"},
-    {n:"RN Real-Time Sockets",repo:"Reactnativesockets",desc:"Bidirectional Socket.IO demo with tab/stack navigation and Lottie animations.",tags:["React Native","Socket.IO"],url:"https://github.com/karthiDRayalli/Reactnativesockets"},
-    {n:"S3 Image Resizer",repo:"s3_image_resize",desc:"Scheduled utility that pulls images from AWS S3 and resizes them with Sharp on a cron.",tags:["Node.js","AWS S3","Sharp"],url:"https://github.com/karthiDRayalli/s3_image_resize"},
-    {n:"Feature Flags",repo:"featureflags",desc:"Next.js project exploring feature-flag-driven UI toggling.",tags:["Next.js","TypeScript"],url:"https://github.com/karthiDRayalli/featureflags"}
+    {n:"Real-Estate Escrow",repo:"escrow",desc:"Escrow web app integrating the Escrow.com API — webhook-driven status sync, document management and automated deadline tracking.",tags:["Next.js","TypeScript","Tailwind"],url:"https://github.com/karthikrayalli/escrow"},
+    {n:"WhatsApp API + AI",repo:"whatsapp_business_api-s",desc:"Backend service wiring the WhatsApp Business API to OpenAI for automated, conversational messaging.",tags:["Node.js","Express","OpenAI"],url:"https://github.com/karthikrayalli/whatsapp_business_api-s"},
+    {n:"MochaHouse",repo:"mochahouse",desc:"Coffee-shop themed RN app exploring rich UI — Reanimated, blur, SVG and swipeable carousels.",tags:["React Native"],url:"https://github.com/karthikrayalli/mochahouse"},
+    {n:"RN Real-Time Sockets",repo:"Reactnativesockets",desc:"Bidirectional Socket.IO demo with tab/stack navigation and Lottie animations.",tags:["React Native","Socket.IO"],url:"https://github.com/karthikrayalli/Reactnativesockets"},
+    {n:"S3 Image Resizer",repo:"s3_image_resize",desc:"Scheduled utility that pulls images from AWS S3 and resizes them with Sharp on a cron.",tags:["Node.js","AWS S3","Sharp"],url:"https://github.com/karthikrayalli/s3_image_resize"},
+    {n:"Feature Flags",repo:"featureflags",desc:"Next.js project exploring feature-flag-driven UI toggling.",tags:["Next.js","TypeScript"],url:"https://github.com/karthikrayalli/featureflags"}
   ];
 
   function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
