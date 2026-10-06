@@ -29,14 +29,14 @@ Senior full-stack engineer with **5+ years** of experience shipping production *
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,mongodb,postgres,mysql,aws,azure,firebase,vercel,docker,jest,git&perline=9" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,graphql,mongodb,postgres,mysql,aws,azure,firebase,vercel,docker,jest,git&perline=9" alt="Tech stack" />
 </p>
 
 | | |
 |---|---|
 | **Languages** | TypeScript · JavaScript (ES6+) |
-| **Frontend / Mobile** | React Native (CLI and Expo) · React.js · Next.js · Redux · Tailwind CSS · shadcn/ui · Storybook |
-| **Backend** | Node.js · NestJS · Express · Hono · REST APIs |
+| **Frontend / Mobile** | React Native (CLI and Expo) · React.js · Next.js · Redux · TanStack · Tailwind CSS · shadcn/ui · Storybook |
+| **Backend** | Node.js · NestJS · Express · Hono · REST APIs · GraphQL |
 | **Databases** | PostgreSQL (PostGIS) · MongoDB · MySQL |
 | **Cloud / DevOps** | AWS · Azure · Vercel · Docker · Firebase · CI/CD (Bitbucket Pipelines) |
 | **Architecture** | Turborepo and pnpm monorepos · shared packages · native shell with WebView bridge |
